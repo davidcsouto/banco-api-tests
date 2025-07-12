@@ -9,7 +9,7 @@ describe('Transferências', () => {
         let token;
 
         beforeEach(async () => {
-            token = await obterToken('junior', '123456');
+            token = await obterToken('julio.lima', '123456');
         })
 
         it('Deve retornar sucesso com 201 quando o valor da transferência for igual ou acima de R$ 10,00', async () => {
