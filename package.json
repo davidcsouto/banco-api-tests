@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "mocha ./test/**/*.test.js --timeout=200000 --reporter mochawesome"
   },
@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chai": "^5.2.1",
+    "chai": "^4.3.7",
     "dotenv": "^17.2.0",
     "mocha": "^11.7.1",
     "mochawesome": "^7.1.3",

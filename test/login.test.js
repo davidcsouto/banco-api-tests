@@ -1,6 +1,6 @@
-import request from 'supertest';
-import {expect} from 'chai';
-import 'dotenv/config'; 
+const request = require('supertest');
+const {expect} = require('chai');
+require('dotenv').config(); 
 
 describe('Login', ()=> {
     describe('POST /login', ()=> {
